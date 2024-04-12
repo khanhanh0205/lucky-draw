@@ -1,0 +1,129 @@
+#inputTextArea {
+  border-color: #696969;
+  width: 1px;
+  content: "\2022";
+  color: #8667f2;
+  margin-right: 0.5em;
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+.content_inner {
+  padding: 10px !important;
+}
+.big-spin {
+  position: relative;
+}
+.text-center {
+  position: absolute;
+  left: 8%;
+  color: #575696;
+  font-family: "Sedgwick Ave", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.img-show {
+  position: absolute;
+  left: 22%;
+  top: -95px;
+}
+.wrap-btn {
+  margin-top: 12px !important;
+}
+#root .nav-link.nav-custom {
+  font-weight: bold;
+  color: #8667f2;
+}
+.logo-site {
+  font-weight: 900;
+  font-family: "Nunito", sans-serif;
+  /* font-optical-sizing: auto; */
+  /* font-weight: <weight>; */
+}
+.list-item {
+  outline: none !important;
+  border: none !important;
+  background: #f7f7f7 !important;
+  border-radius: 12px !important;
+}
+
+.list-item::-webkit-scrollbar {
+  width: 3px;
+}
+
+.list-item::-webkit-scrollbar-thumb {
+  background-color: #8667f2;
+  border-radius: 5px;
+}
+
+.list-item::-webkit-scrollbar-thumb:hover {
+  background-color: white;
+}
+
+.list-item::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.list-item:focus {
+  outline: none !important;
+  box-shadow: unset !important;
+}
+
+.btn-white {
+  background-color: white !important;
+  color: #8667f2 !important;
+  font-weight: 500 !important;
+  border-radius: 32px !important;
+}
+
+.update-btn {
+  background: #8667f2 !important;
+  color: white !important;
+  border: unset !important;
+}
+.content_inner {
+  position: relative;
+}
+.list-dotItem {
+  position: absolute;
+  left: 25px;
+  padding-left: 0;
+  top: 5rem;
+}
+.list-dotItem .dot-item {
+  width: 10px;
+  border-radius: 50%;
+  height: 10px;
+  margin-bottom: 14.5px;
+  background-color: #8667f2;
+}
+
+#clearListButton {
+  background-color: #8667f2;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 32px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#clearListButton span {
+  margin-left: 7px;
+}
+
+.list-result {
+  height: 364px;
+  overflow: auto;
+  background-color: #f7f7f7;
+  margin: 10px;
+}
+.wrap-list-result {
+  background-color: white;
+  /* padding-bottom: 15px; */
+  padding: 0 16px 15px;
+}
+
+#Tabs {
+  background: white;
+}

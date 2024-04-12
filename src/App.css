@@ -1,0 +1,86 @@
+@media only screen and (max-width: 991px) {
+  #youtubeSection {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  #youtubeSection {
+    height: 50%;
+  }
+}
+
+.react-player {
+  border: 1px solid #000000;
+}
+
+.nav-tabs-click {
+  background-color: #8667f2;
+  border-radius: 20px 20px 0 0;
+  padding: 6px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  padding: 4px 16px;
+  font-weight: bold;
+  color: #8667f2;
+  border-radius: 18px;
+  box-shadow: 0px 0px 16.1px 0px rgba(255, 255, 255, 0.6);
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.btn-primary {
+  border-color: #8667f2;
+}
+
+.nav-tabs-click {
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+}
+
+.navbar-brand {
+  background: var(
+    --Theme-Text-01,
+    linear-gradient(
+      50deg,
+      #d248f5 14.5%,
+      #806ef1 35.08%,
+      #7776f3 63.83%,
+      #40a2fd 85.48%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-family: "Nunito"; */
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.container-fluid {
+  background-image: url("./Rectangle\ 161.jpg");
+  background-size: cover;
+}
+.container-fluid .row {
+  padding-top: 12vh;
+  height: calc(100vh - 80px);
+}
+.mt-10 {
+  border-radius: 0 0 20px 20px;
+}
+.form-control {
+  /* height: 300px; */
+}
